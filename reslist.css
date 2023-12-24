@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, sans-serif;
+}
+
+.navbar{
+    background-color: #f8f9fa;
+    color:#111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.navbar-brand{
+    font-size: 1.5rem;
+}
+.navbar-brand a{
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+}
+.nav-links li{
+    padding: 0 20px;
+}
+.nav-links a{
+    color: gray;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.nav-links a:hover{
+    color:#020202;
+}
+.res-list{
+    margin: 40px;
+}
+.filters{
+    padding: 20px;
+    margin-top: 20px;
+}
+.filter-section{
+    margin: 20px;
+}
+select{
+    padding: 10px;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+.restaurant-List ul{
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+}
+
+.restaurant-List li{
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+}
+#restaurantList{
+    margin-left: 30px;
+    padding: 15px;
+    font-size: 16px;
+}
+.restaurant-item{
+    border: 1px solid rgb(211, 208, 208);
+    padding: 15px;
+    width: 90%;
+    font-size: 18px;
+}
+
+.btn1{
+    border: none;
+    padding: 10px 30px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+}
+.btn2{
+    border: none;
+    padding: 10px 30px;
+    background-color: #ffc107 ;
+    color: #fff;
+    border-radius: 5px;
+}
+.btn3{
+    border: none;
+    padding: 10px 30px;
+    background-color: #dc3545 ;
+    color: #fff;
+    border-radius: 5px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <linkl rel="stylesheet" href="reslist.css"></linkl>
+    <link rel="stylesheet" href="reslist.css"></link>
+    <title>Restaurant List</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-brand"><a href="index.html">BistroPal</a></div>
+        <ul class="nav-links">
+         <li><a href="reslist.html">Restaurant List</a></li>
+         <li><a href="addres.html">Add Restaurant </a></li>
+         <li><a href="aboutus.html">About Us</a></li>
+        </ul>
+    </nav>
+    <h1 class="res-list">Restaurant List</h1>
+    <section class="filters">
+      <div class="filter-section">
+        <h4>Filter By:</h4>
+        <select id="cuisine-filter">
+            <option value="all">All</option>
+            <option value="italian">Italian</option>
+            <option value="mexican">Mexican</option>
+        </select>
+      </div>
+      <div class="filter-section">
+        <h4>sort By:</h4>
+        <select id="sort-option">
+            <option value="name">Name</option>
+            <option value="rating">Rating</option>
+        </select>
+      </div>
+    </section>
+    <div id="restaurantList"></div><br>
+    <p style="font-size: 19px;margin-top: 20px;text-align: center;">&copy; 2023 BistroPal,All rights reserved</p>
+    <script src="script.js"></script>
+    </body>
+    </html>
