@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, sans-serif;
+}
+
+.navbar{
+    background-color: #f8f9fa;
+    color:#111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.navbar-brand{
+    font-size: 1.5rem;
+}
+.navbar-brand a{
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+}
+.nav-links li{
+    padding: 0 20px;
+}
+.nav-links a{
+    color: gray;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.nav-links a:hover{
+    color:#020202;
+}
+.add-res{
+    margin: 2rem;
+}
+.addRestaurantForm{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+}
+input{
+    padding: 10px;
+    border: none;
+    border: 1px solid rgb(180, 178, 178);
+    width: 90%;
+    border-radius: 5px;
+}
+button{
+    width: 20%;
+    padding: 10px 0px;
+    background-color: #007bff ;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
